@@ -4,9 +4,54 @@
 	padding-right: 0 !important;
 	height: 100%;
 	min-width: 850px;
+	color: #555;
 }
 
 html {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .825rem;
+}
+
+.color-india-saffron {
+	color: #FF9933;
+}
+
+.color-india-green {
+	color: #138808;
+}
+
+.material-icons {
+	vertical-align: middle;
+}
+
+.material-icons + span {
+	vertical-align: middle;
+}
+
+.material-icons.md-14 {
+	font-size: 14px;
+}
+
+.material-icons.md-16 {
+	font-size: 16px;
+}
+
+.material-icons.md-18 {
+	font-size: 18px;
+}
+
+.material-icons.md-20 {
+	font-size: 20px;
+}
+
+.material-icons.md-24 {
+	font-size: 24px;
+}
+
+.material-icons.md-36 {
+	font-size: 36px;
+}
+
+.material-icons.md-48 {
+	font-size: 48px;
 }
