@@ -10,16 +10,27 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+	<script src="Scripts/jquery.waypoints.min.js"></script>
+	<script src="Scripts/sticky.min.js"></script>
+
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css' />
 	<link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet' />
 
 	<link href="Content/vt.css" rel="stylesheet" type="text/css" />
 </head>
-<body style="background-color: #f1f1f1;">
-	<div style="margin-top: 150px; text-align: center;">
+<body style="background-color: #fff;">
+	<div id="header" style="padding: 15px 0; text-align: center; background-color: #fff;">
 		<i class="material-icons md-24 color-india-saffron">local_florist</i>
 		<span style="padding: 0 8px;">Welcome to VibhaTewari.com</span>
 		<i class="material-icons md-24 color-india-green">local_florist</i>
 	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var sticky = new Waypoint.Sticky({
+				element: $('#header')
+			})
+		});
+	</script>
 </body>
 </html>
