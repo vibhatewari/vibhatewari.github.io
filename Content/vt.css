@@ -4,6 +4,7 @@
 	height: 100%;
 	min-width: 480px;
 	color: #555;
+	background-color: #fbfbfb;
 }
 
 html {
@@ -11,7 +12,23 @@ html {
 	font-size: .825rem;
 }
 
+.clear {
+	clear: both;
+}
+
+.img-link, .img-link img {
+	text-decoration: none !important;
+	border: 0px !important;
+	outline: none;
+	border-width: 0px;
+	outline-width: 0px;
+	border-bottom: none;
+}
+
 #header {
+	padding: 15px 0;
+	text-align: center;
+	background-color: #fff;
 	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 	-webkit-box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 	-moz-box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
@@ -23,6 +40,18 @@ html {
 	width: 100%;
 	z-index: 1;
 	opacity: 0.95;
+}
+
+#background {
+	margin: 40px auto 40px auto;
+	background-image: url('images/path5154.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(255,255,255,0.1);
+	width: 655px;
+	height: 668px;
+	opacity: 0.05;
 }
 
 .color-india-saffron {
